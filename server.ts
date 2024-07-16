@@ -1,3 +1,16 @@
+/**
+* @returns { 
+*   title: "Espelho de Ponto",
+*   empresa: string,
+*   cnpj: string,
+*   empregado: string,
+*   admissao: string,
+*   departamento: string,
+*   funcao: string,
+*   'jornada(s) periodo:': string 
+* }
+*/
+
 import fs from 'fs';
 import pdf from 'pdf-parse';
 
